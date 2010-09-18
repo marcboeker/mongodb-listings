@@ -1,0 +1,8 @@
+<script type="text/javascript">
+(function() {
+	var site = 'my_awesome_blog';
+	var img = new Image();
+	img.src = 'http://127.0.0.1:8000/?site=' + site + 
+		'&url=' + document.location.href;
+})();
+</script>
